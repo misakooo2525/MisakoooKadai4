@@ -6,7 +6,7 @@ target 'MisakoooKadai4' do
   use_frameworks!
 
   # Pods for MisakoooKadai4
-  pod ‘SwiftLint'
+pod 'SwiftLint'
 
   target 'MisakoooKadai4Tests' do
     inherit! :search_paths
