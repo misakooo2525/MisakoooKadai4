@@ -19,6 +19,6 @@ class CountupViewController: UIViewController {
     
     @IBAction private func didTapClearButton(_ sender: UIButton) {
         count = 0
-        countupResultLabel.text = String(0)
+        countupResultLabel.text = String(count)
     }
 }
